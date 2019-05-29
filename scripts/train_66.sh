@@ -1,0 +1,13 @@
+/usr/bin/python3 ../src/train.py \
+--GPU='3' \
+--data_type='UnityEyes' \
+--net_name='hourglasses' \
+--trainable='1' \
+--batch_size=32 \
+--server=66 \
+--stack=3 \
+--epoch=2 \
+--reduce_mean=0 \
+--use_batch_norm=1 \
+--lr_boundaries='1' \
+--lr_values='0.0001,0.00001'
